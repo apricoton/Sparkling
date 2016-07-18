@@ -176,6 +176,7 @@ function sparkling_widgets_init() {
   register_widget( 'sparkling_social_widget' );
   register_widget( 'sparkling_popular_posts' );
   register_widget( 'sparkling_categories' );
+  register_widget( 'sparkling_archives' );
 
 }
 add_action( 'widgets_init', 'sparkling_widgets_init' );
@@ -187,6 +188,7 @@ add_action( 'widgets_init', 'sparkling_widgets_init' );
 require_once(get_template_directory() . '/inc/widgets/widget-categories.php');
 require_once(get_template_directory() . '/inc/widgets/widget-social.php');
 require_once(get_template_directory() . '/inc/widgets/widget-popular-posts.php');
+require_once(get_template_directory() . '/inc/widgets/widget-archives.php');
 
 
 /**
