@@ -212,7 +212,7 @@ function sparkling_scripts() {
   wp_enqueue_style( 'sparkling-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
 
   // Add Google Fonts
-  wp_register_style( 'sparkling-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Roboto+Slab:400,300,700|Arima+Madurai:400,100|Kanit:400,200,300,500');
+  wp_register_style( 'sparkling-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700|Roboto+Slab:400,300,700|Arima+Madurai:400,100|Lato:400,300,700');
 
   wp_enqueue_style( 'sparkling-fonts' );
 

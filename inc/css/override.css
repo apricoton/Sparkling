@@ -1,17 +1,28 @@
+body {
+    font-family: -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+    font-weight: 400;
+}
+
 .navbar.navbar-default {
     border-top: 3px solid #13007c;
     border-bottom: 1px solid #dadada;
     background-color: #fff;
+    font-family: 'Open Sans', -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
 }
 
 .navbar > .container .navbar-brand {
-    /*font-family: 'Kanit', sans-serif;*/
     margin-top: 10px;
     font-family: 'Arima Madurai', cursive;
     font-weight: 400;
     font-size: 28px;
     line-height: 28px;
     color: #13007c;
+}
+
+@media (max-width: 767px) {
+    .navbar > .container .navbar-brand {
+        margin: 0 0 4px 0;
+    }
 }
 
 a {
@@ -23,6 +34,8 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Lato', -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+    font-weight: 700;
     color: #13007c;
     line-height: 1.3;
 }
